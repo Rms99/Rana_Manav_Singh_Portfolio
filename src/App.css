@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
+body{
+  font-family: "Roboto Condensed" sans-serif;
+}
+
+/**************************NAVIGATION BAR**********************************************************************************/
+.logo_design {
+  width: 10.25rem;
+}
+
+nav a.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: #fff !important;
+  border-top: 0.175 solid rgba(255, 255,255, 0);
+}
+
+.navbar-brand {
+  max-width: 11.25rem;
+  padding: 0 !important;
+  height: 3.8rem !important;
+}
+
+.navbar-nav >li >a.active, .navbar-nav > li > a:focus{
+  border-top: 0.1rem solid #f9ab00;
+}
+
+.navbar-nav >li >a:hover {
+  border-top: 0.1rem solid #f9ab00;
+}
